@@ -11,7 +11,7 @@ export function* watcherSaga() {
 function fetchDog() {
   return axios({
     method: 'get',
-    url: 'https://dog.ceo/api/breds/image/random'
+    url: 'https://dog.ceo/api/breeds/image/random'
   });
 }
 
